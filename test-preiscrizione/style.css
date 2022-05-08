@@ -1,0 +1,87 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.tagline    {
+    color: limegreen;
+    text-align: center;
+}
+
+.logo   {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.buttons    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container  {
+    width: 85%;
+    height: 85%;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+header  {
+    width: 80%; 
+    padding: 50px;
+    margin:0 auto;
+}
+
+nav     {
+    width: 80%;
+    background-color: limegreen;
+    padding: 25px;
+    margin:0 auto;
+  }
+
+  main  {
+    margin-left: 10%;
+    padding: 25px;
+  }
+
+  .monopattino  {
+      color: white;
+      font-size: large;
+      font-weight: bold;
+  }
+
+  .meter {
+    box-sizing: content-box;
+    height: 20px; 
+    margin: 10px 0 20px 0; 
+    padding: 0px;
+  }
+
+  .meter > span {
+    display: block;
+    height: 100%;
+    position: relative;
+    border-radius: 5px;
+   
+  }
+
+  #meter1   {
+    background-color: darkgoldenrod;
+  }
+
+  #meter2   {
+    background-color: limegreen;
+  }
+
+  #meter3   {
+    background-color: darkred;
+  }
